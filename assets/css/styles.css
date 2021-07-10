@@ -1,0 +1,28 @@
+html, body{
+  margin: 0px;
+  background-color: #1b351c;
+  color: white;
+}
+
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.carta {
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+}
+
+/*con # porque es id*/
+#computadora-cartas, #jugador-cartas{  
+  height: 240px;
+}/*mantiene el espacio entre los nombres a pesar
+de que no haya cartas*/
+
